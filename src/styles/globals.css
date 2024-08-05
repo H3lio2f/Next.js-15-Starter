@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styles for Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: indigo;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: indigo;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Custom scrollbar styles for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #C51617; /* Two-tone color */
+}
+
+
+:root {
+  --font-local: "Metropolis", sans-serif;
+  --font-lucida: 'Lucida Grande', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-lucida);
+}
+  
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-local);
+  -webkit-overflow-scrolling: touch;
+}
