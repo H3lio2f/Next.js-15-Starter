@@ -6,7 +6,7 @@ import {
 } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
-const TanStackProvider = ({ children }) => {
+const TanStackProvider = ({ children }: { children: React.ReactNode }) => {
 
     const queryClient = new QueryClient();
     
