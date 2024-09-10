@@ -11,15 +11,21 @@
   "dependencies": {
     "@tanstack/react-query": "^5.51.21",
     "@tanstack/react-query-devtools": "^5.51.21",
+    "axios": "^1.7.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "date-fns": "^3.6.0",
     "framer-motion": "^11.3.21",
+    "lucide-react": "^0.439.0",
     "next": "14.2.5",
     "next-auth": "^4.24.7",
     "next-intl": "^3.17.2",
     "react": "^18",
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
-    "react-shimmer-effects": "^1.0.3"
+    "react-shimmer-effects": "^1.0.3",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
