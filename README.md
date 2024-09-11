@@ -65,3 +65,24 @@ To run this project locally:
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+### Folder Structure
+
+This starter comes with a pre-configured folder structure designed to facilitate clean and efficient code organization:
+
+- `app/`: Contains the main application code, including pages and API routes.
+  - `_components/`: Reusable React components for the specific page/route.
+  - `_lib/`: Shared logic, configurations, and API-related functions for the specific page/route:
+    - `actions.ts`: Server actions for Next.js
+    - `mutations.ts`: Mutation functions for React Query
+    - `queries.ts`: Query functions for React Query
+- `components/`: Reusable React components.
+- `helpers/`: Utility functions and helper methods.
+- `lib/`: Shared logic and configurations.
+- `providers/`: React context providers for state management.
+- `services/`: API service functions and data fetching logic.
+- `styles/`: Global styles and Tailwind CSS configuration.
+- `types/`: TypeScript type definitions.
+- `public/`: Static assets like images and fonts.
+
+This structure aims to promote modularity, maintainability, and separation of concerns in your Next.js project. It provides clear locations for different aspects of your application, making it easier to navigate and scale your codebase.
