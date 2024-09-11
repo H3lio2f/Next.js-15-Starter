@@ -31,13 +31,37 @@ To run this project locally:
    ```
 
 2. Install dependencies
+   
+   Using npm:
    ```bash
    npm install
    ```
+   
+   Using yarn:
+   ```bash
+   yarn
+   ```
+   
+   Using pnpm:
+   ```bash
+   pnpm install
+   ```
 
 3. Start the development server
+   
+   Using npm:
    ```bash
    npm run dev
+   ```
+   
+   Using yarn:
+   ```bash
+   yarn dev
+   ```
+   
+   Using pnpm:
+   ```bash
+   pnpm dev
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
