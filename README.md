@@ -1,4 +1,4 @@
-## Next.js 14 Starter
+## Next.js 15 Starter
 
 - Created by [Hélio Fila (@h3lio2f)](https://github.com/h3lio2f)
 
@@ -6,8 +6,8 @@
 
 This starter uses the following main libraries:
 
-- Next.js 14
-- React 18
+- Next.js 15
+- React 19 rc
 - TypeScript
 - TanStack React Query
 - Axios
@@ -26,7 +26,7 @@ To run this project locally:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/h3lio2f/nextjs-14-starter.git
+   git clone https://github.com/H3lio2f/Next.js-15-Starter.git
    cd nextjs-14-starter
    ```
 
