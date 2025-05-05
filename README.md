@@ -6,7 +6,7 @@
 
 This starter uses the following main libraries:
 
-- Next.js 15
+- Next.js 15.3.1
 - React 19 rc
 - TypeScript
 - TanStack React Query
@@ -27,7 +27,7 @@ To run this project locally:
 1. Clone the repository
    ```bash
    git clone https://github.com/H3lio2f/Next.js-15-Starter.git
-   cd nextjs-14-starter
+   cd nextjs-15-starter
    ```
 
 2. Install dependencies

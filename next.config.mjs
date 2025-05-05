@@ -1,16 +1,9 @@
 /** @type {import('next').NextConfig} */
 
-import withNextIntl from "next-intl/plugin";
-
 const nextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "s3.amazonaws.com"
-      },
-    ],
+    remotePatterns: [],
   },
 };
 
-export default withNextIntl()(nextConfig);
+export default nextConfig;
