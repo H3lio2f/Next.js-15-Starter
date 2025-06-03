@@ -6,13 +6,11 @@
 
 This starter uses the following main libraries:
 
-- Next.js 15.3.1
-- React 19 rc
+- Next.js 15.3.3
+- React 19.1.0
 - TypeScript
-- TanStack React Query
 - Axios
 - Next-auth
-- Next-intl
 - Framer Motion
 - Tailwind CSS
 - Class Variance Authority & clsx
