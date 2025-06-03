@@ -72,8 +72,6 @@ This starter comes with a pre-configured folder structure designed to facilitate
   - `_components/`: Reusable React components for the specific page/route.
   - `_lib/`: Shared logic, configurations, and API-related functions for the specific page/route:
     - `actions.ts`: Server actions for Next.js
-    - `mutations.ts`: Mutation functions for React Query
-    - `queries.ts`: Query functions for React Query
 - `components/`: Reusable React components.
 - `helpers/`: Utility functions and helper methods.
 - `lib/`: Shared logic and configurations.
